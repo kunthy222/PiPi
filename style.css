@@ -17,7 +17,7 @@
         }
 
         .logo{
-            width: 80px;
+            width: 50px;
             height: auto;
            
         }
@@ -68,12 +68,10 @@
             url('https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/715324360_895411733564892_1797719266303842489_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x853&ctp=s1280x853&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Lnj-mR1Sp-oQ7kNvwGoX1BU&_nc_oc=AdriB3sjE98DKOvI2GSHw4n_vi0WQgMG0yEhGD3dSU-B4FlQeXq0Hy6Yz4rAsPeHxR0&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=ioeiHxJmIA_RLZMA2f30Xw&_nc_ss=7b289&oh=00_Af-DlLWELU6qNVTXZzhX6RIWaLV575999Xzv6jBix2nfLA&oe=6A3A9B41');
             background-size:cover;
             background-position:center;
-
             display:flex;
             align-items:center;
-
             justify-content:flex-start;
-            padding-left:60px;
+            padding-left:0 20px;
         }
 
        .hero-content{
@@ -90,10 +88,11 @@
 
 .hero-title{
     font-family:'Pacifico', cursive;
-    font-size:5rem;
+    font-size:clamp(3rem, 8vw, 5rem);
     line-height:1.1;
     color:white;
     margin:10px 0 20px;
+    word-break:break-word;
 }
 
 .hero-subtitle{
@@ -104,9 +103,9 @@
 }
 
 .hero-desc{
-    font-size:1.5rem;
+    font-size:clamp(1rem, 3vw, 1.5rem);
     color:white;
-    max-width:500px;
+    max-width:100%;
 }
 
         .btn-custom{
@@ -579,7 +578,9 @@ body{
 
 .about-image img{
     width:100%;
-    max-width:900;
+    max-width:900px;
+    height:auto;
+    display:blokc;
 }
 
 /*a2*/
@@ -602,7 +603,7 @@ body{
     color:#6B4423;
     font-family:'Pacifico',cursive;
     font-size:20px;
-     font-weight:30;
+    font-weight:30;
     margin-bottom:10px;
 }
 
